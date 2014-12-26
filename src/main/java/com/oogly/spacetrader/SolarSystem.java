@@ -9,39 +9,47 @@ import org.jgrapht.DirectedGraph;
 import org.jgrapht.graph.DefaultDirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 
+import java.util.Set;
+
 public class SolarSystem {
 
     private DirectedGraph<Planet, DefaultEdge> galaxy;
     
     public SolarSystem() {
-        
-        Planet sun = new Planet("sun");
-        Planet mercury = new Planet("mercury");
-        Planet venus = new Planet("venus");
-        Planet moon = new Planet("moon");
-        Planet earth = new Planet("earth");
-        Planet mars = new Planet("mars");
-        Planet jupiter = new Planet("jupiter");
-        
+
         galaxy = new DefaultDirectedGraph<Planet, DefaultEdge>(DefaultEdge.class);
-        galaxy.addVertex(jupiter);
-        galaxy.addVertex(mars);
-        galaxy.addVertex(earth);
-        galaxy.addVertex(moon);
-        galaxy.addVertex(venus);
-        galaxy.addVertex(mercury);
-        galaxy.addVertex(sun);
-        
-        galaxy.addEdge(sun, mercury);
-        galaxy.addEdge(mercury, venus);
-        galaxy.addEdge(venus, moon);
-        galaxy.addEdge(moon, earth);
-        galaxy.addEdge(earth, mars);
-        galaxy.addEdge(mars, jupiter);
-        
-        System.out.println(galaxy.toString());
+
     }
-    
+
+    public Planet addPlanetVertex(String name) {
+
+        Planet p = new Planet(name);
+        galaxy.addVertex(p);
+        return p;
+    }
+
+    public void connectPlanets(Planet origin, Planet destination) {
+
+        galaxy.addEdge(origin, destination);
+    }
+
+
+    public void display() {
+
+        // TODO: Maintain a list of visited nodes
+        for (Planet planet: galaxy.vertexSet()) {
+
+            System.out.println("Found planet " + planet.toString());
+
+            for (DefaultEdge edge: galaxy.outgoingEdgesOf(planet)) {
+
+                Planet edgeSource = galaxy.getEdgeSource(edge);
+                Planet edgeTarget = galaxy.getEdgeTarget(edge);
+                System.out.println("\t " + edgeSource + " -> " + edgeTarget);
+            }
+        }
+
+    }
     
     public DirectedGraph<Planet, DefaultEdge> getGalaxy() {
         return galaxy;
