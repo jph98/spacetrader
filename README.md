@@ -1,2 +1,2 @@
-spacetrader
+tradergalaxy
 ===========
