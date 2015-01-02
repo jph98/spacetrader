@@ -23,10 +23,11 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="spacetrader" />
+        <module name="tradergalaxy" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="spacetrader" target="1.6" />
+    <bytecodeTargetLevel target="1.7">
+      <module name="tradergalaxy" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>
