@@ -1,8 +1,6 @@
-package com.froyo.tradergalaxy.entities;
+package com.froyo.valkyrie.entities;
 
 import com.google.common.base.MoreObjects;
-
-import java.math.BigDecimal;
 
 /**
  * Product

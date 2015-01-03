@@ -1,4 +1,4 @@
-package com.froyo.tradergalaxy;
+package com.froyo.valkyrie;
 
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;

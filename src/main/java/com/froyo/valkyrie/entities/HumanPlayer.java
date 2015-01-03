@@ -1,7 +1,7 @@
-package com.froyo.tradergalaxy.entities;
+package com.froyo.valkyrie.entities;
 
-import com.froyo.tradergalaxy.GameContext;
-import com.froyo.tradergalaxy.InputHandler;
+import com.froyo.valkyrie.GameContext;
+import com.froyo.valkyrie.InputHandler;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

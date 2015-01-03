@@ -1,4 +1,4 @@
-package com.froyo.tradergalaxy.entities;
+package com.froyo.valkyrie.entities;
 
 /**
  * Mission

@@ -1,17 +1,18 @@
-package com.froyo.tradergalaxy.entities;
+package com.froyo.valkyrie.entities;
 
 import com.google.common.collect.Sets;
 
 import java.util.Set;
 
 /**
- * EngineeringBay
+ * Market
  */
-public class EngineeringBay {
+public class Market {
 
+    private String name;
     private Set<Product> products;
 
-    public EngineeringBay() {
+    public Market() {
         this.products = Sets.newHashSet();
     }
 }

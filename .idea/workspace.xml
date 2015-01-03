@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/SolarSystem.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420281924216" ignored="false" />
     <file path="/Main.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420271437604" ignored="false" />
-    <file path="/pom.xml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420128572102" ignored="false" />
+    <file path="/pom.xml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420292277291" ignored="false" />
     <file path="/locations.yml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420128692229" ignored="false" />
     <file path="/planets.yml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420271616505" ignored="false" />
     <file path="/Planet.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288856879" ignored="false" />
@@ -87,30 +87,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameMain.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameMain.java">
+      <file leaf-file-name="pom.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="67" column="50" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="products.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/products.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="33" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+            <state line="22" column="54" selection-start="681" selection-end="681" vertical-scroll-proportion="0.4029304">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Product.java">
+      <file leaf-file-name="GameMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/GameMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="53" column="38" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+            <state line="66" column="50" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -118,19 +107,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="0" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.16483517">
+            <state line="3" column="15" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PlanetTile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlanetTile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/PlanetTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="92" column="10" selection-start="1755" selection-end="2006" vertical-scroll-proportion="0.0">
+            <state line="92" column="5" selection-start="1751" selection-end="2002" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -139,27 +139,27 @@
         </entry>
       </file>
       <file leaf-file-name="SpaceTile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/SpaceTile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/SpaceTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+            <state line="5" column="18" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="PlayerTile.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlayerTile.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/PlayerTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+            <state line="5" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="HumanPlayer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/HumanPlayer.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/HumanPlayer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+            <state line="18" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,9 +168,9 @@
         </entry>
       </file>
       <file leaf-file-name="GameContext.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameContext.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/GameContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="147" column="0" selection-start="3898" selection-end="3898" vertical-scroll-proportion="0.0">
+            <state line="147" column="0" selection-start="3882" selection-end="3882" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -179,9 +179,9 @@
         </entry>
       </file>
       <file leaf-file-name="EngineeringBay.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/EngineeringBay.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/EngineeringBay.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="5" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+            <state line="15" column="5" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -199,7 +199,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/planets.yml" />
         <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Mission.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Market.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/EngineeringBay.java" />
@@ -215,6 +214,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameMain.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Product.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
   </component>
@@ -341,7 +341,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tradergalaxy" />
+              <option name="myItemId" value="valkyrie" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -367,7 +367,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tradergalaxy" />
+              <option name="myItemId" value="valkyrie" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -393,7 +393,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tradergalaxy" />
+              <option name="myItemId" value="valkyrie" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -439,11 +439,11 @@
     <configuration default="false" name="GameMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.froyo.tradergalaxy.*" />
+          <option name="PATTERN" value="com.froyo.valkyrie.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.froyo.tradergalaxy.GameMain" />
+      <option name="MAIN_CLASS_NAME" value="com.froyo.valkyrie.GameMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -590,7 +590,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -606,7 +606,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24937862" sideWeight="0.6702619" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -678,23 +678,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/ImageUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="19" selection-start="651" selection-end="651" vertical-scroll-proportion="0.3846154">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Mission.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/Mission.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.09157509">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Market.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/Market.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="16" column="31" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2930403">
           <folding>
@@ -703,14 +694,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/ComputerPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/ComputerPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="23" column="42" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystemGUI.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/SolarSystemGUI.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="85" column="0" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0">
           <folding>
@@ -719,82 +710,82 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/game.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/valkyrie/game.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="30" column="31" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5494506">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/products.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/valkyrie/products.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="33" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+        <state line="19" column="22" selection-start="452" selection-end="452" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/GameContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="0" selection-start="3898" selection-end="3898" vertical-scroll-proportion="0.0">
+        <state line="147" column="0" selection-start="3882" selection-end="3882" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/EngineeringBay.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/EngineeringBay.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="5" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+        <state line="15" column="5" selection-start="272" selection-end="272" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameMain.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/GameMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="50" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
+        <state line="66" column="50" selection-start="1791" selection-end="1791" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/HumanPlayer.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/HumanPlayer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="461" selection-end="461" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/SpaceTile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/SpaceTile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+        <state line="5" column="18" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlayerTile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/PlayerTile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+        <state line="5" column="17" selection-start="77" selection-end="77" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlanetTile.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/PlanetTile.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="92" column="10" selection-start="1755" selection-end="2006" vertical-scroll-proportion="0.0">
+        <state line="92" column="5" selection-start="1751" selection-end="2002" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Product.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/valkyrie/entities/Product.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="53" column="38" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+        <state line="51" column="0" selection-start="898" selection-end="898" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -803,7 +794,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.16483517">
+        <state line="3" column="15" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="54" selection-start="681" selection-end="681" vertical-scroll-proportion="0.4029304">
           <folding />
         </state>
       </provider>

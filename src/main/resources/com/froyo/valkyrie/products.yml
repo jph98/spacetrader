@@ -1,13 +1,13 @@
 # Define three groups of elements
 
 products:
-  - !!com.froyo.tradergalaxy.entities.Product
+  - !!com.froyo.valkyrieities.Product
     name: Wooden Beams
     type: Building Materials
     unit: kg
     lowprice: 2
     highprice: 10
-  - !!com.froyo.tradergalaxy.entities.Product
+  - !!com.froyo.valkyrieities.Product
     name: Metal Ore
     type: Building Materials
     unit: kg

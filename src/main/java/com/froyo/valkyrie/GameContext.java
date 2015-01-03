@@ -1,7 +1,7 @@
-package com.froyo.tradergalaxy;
+package com.froyo.valkyrie;
 
-import com.froyo.tradergalaxy.entities.PlanetTile;
-import com.froyo.tradergalaxy.entities.SpaceTile;
+import com.froyo.valkyrie.entities.PlanetTile;
+import com.froyo.valkyrie.entities.SpaceTile;
 import com.google.common.collect.Lists;
 import org.jgrapht.DirectedGraph;
 import org.jgrapht.graph.DefaultDirectedGraph;
@@ -14,7 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
-import com.froyo.tradergalaxy.entities.*;
+import com.froyo.valkyrie.entities.*;
 
 public class GameContext {
 

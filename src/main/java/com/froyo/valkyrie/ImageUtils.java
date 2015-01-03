@@ -1,7 +1,5 @@
-package com.froyo.tradergalaxy;
+package com.froyo.valkyrie;
 
-import javax.swing.*;
-import java.awt.*;
 import java.awt.geom.AffineTransform;
 import java.awt.image.AffineTransformOp;
 import java.awt.image.BufferedImage;

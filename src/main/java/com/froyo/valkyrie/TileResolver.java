@@ -1,7 +1,7 @@
-package com.froyo.tradergalaxy;
+package com.froyo.valkyrie;
 
-import com.froyo.tradergalaxy.entities.PlanetTile;
-import com.froyo.tradergalaxy.entities.SpaceTile;
+import com.froyo.valkyrie.entities.PlanetTile;
+import com.froyo.valkyrie.entities.SpaceTile;
 
 /**
  * TileResolver

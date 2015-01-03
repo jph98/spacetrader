@@ -1,9 +1,9 @@
-package com.froyo.tradergalaxy;
+package com.froyo.valkyrie;
 
 
-import com.froyo.tradergalaxy.entities.HumanPlayer;
-import com.froyo.tradergalaxy.entities.PlanetTile;
-import com.froyo.tradergalaxy.entities.Product;
+import com.froyo.valkyrie.entities.HumanPlayer;
+import com.froyo.valkyrie.entities.PlanetTile;
+import com.froyo.valkyrie.entities.Product;
 import org.jgrapht.DirectedGraph;
 import org.jgrapht.graph.DefaultEdge;
 import org.slf4j.Logger;
@@ -11,7 +11,6 @@ import org.slf4j.LoggerFactory;
 import org.yaml.snakeyaml.Yaml;
 
 import java.util.ArrayList;
-import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Set;
 

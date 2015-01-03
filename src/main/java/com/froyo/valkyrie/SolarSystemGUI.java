@@ -1,9 +1,9 @@
-package com.froyo.tradergalaxy;
+package com.froyo.valkyrie;
 
-import com.froyo.tradergalaxy.entities.PlanetTile;
-import com.froyo.tradergalaxy.entities.PlayerTile;
-import com.froyo.tradergalaxy.entities.HumanPlayer;
-import com.froyo.tradergalaxy.entities.SpaceTile;
+import com.froyo.valkyrie.entities.PlanetTile;
+import com.froyo.valkyrie.entities.PlayerTile;
+import com.froyo.valkyrie.entities.HumanPlayer;
+import com.froyo.valkyrie.entities.SpaceTile;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

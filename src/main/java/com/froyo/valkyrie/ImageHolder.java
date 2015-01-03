@@ -1,4 +1,4 @@
-package com.froyo.tradergalaxy;
+package com.froyo.valkyrie;
 
 import com.google.common.collect.Maps;
 import org.slf4j.Logger;
