@@ -2,6 +2,7 @@ package com.froyo.valkyrie;
 
 import com.froyo.valkyrie.entities.PlanetTile;
 import com.froyo.valkyrie.entities.SpaceTile;
+import com.froyo.valkyrie.util.RandomUtil;
 import com.google.common.collect.Lists;
 import org.jgrapht.DirectedGraph;
 import org.jgrapht.graph.DefaultDirectedGraph;
@@ -27,6 +28,7 @@ public class GameContext {
 
     private DirectedGraph<PlanetTile, DefaultEdge> galaxy;
     private List<HumanPlayer> players = Lists.newArrayList();
+    private GameState state;
 
     public GameContext(int width, int height) {
 
@@ -49,8 +51,8 @@ public class GameContext {
 
     public PlanetTile addRandomPlanet(String name) {
 
-        int x = (int) (Math.random() * (this.widthInCells - 0));
-        int y = (int) (Math.random() * (this.heightInCells - 0));
+        int x = RandomUtil.numberInRange(0, this.widthInCells - 1);
+        int y = RandomUtil.numberInRange(0, this.heightInCells - 1);
 
         PlanetTile p = new PlanetTile().setName(name)
                                .setX(x)
@@ -122,8 +124,8 @@ public class GameContext {
     public void createRandomConnection(ArrayList<Object> planetNames, Set<PlanetTile> planets, PlanetTile p) {
 
         // Create two connections randomly
-        double v = Math.random() * (planets.size() - 0);
-        String name = (String) planetNames.get((int) v);
+        int v = RandomUtil.numberInRange(0, planets.size() - 1);
+        String name = (String) planetNames.get(v);
 
         // Get planet by name from planets
         PlanetTile planet = getPlanetByName(name);
@@ -156,5 +158,13 @@ public class GameContext {
 
     public void addPlayer(HumanPlayer p) {
         this.players.add(p);
+    }
+
+    public GameState getState() {
+        return state;
+    }
+
+    public void setState(GameState state) {
+        this.state = state;
     }
 }

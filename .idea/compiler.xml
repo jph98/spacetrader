@@ -22,12 +22,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
-        <module name="spacetrader" />
-        <module name="tradergalaxy" />
+        <module name="valkyrie" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel target="1.7">
-      <module name="tradergalaxy" target="1.7" />
+    <bytecodeTargetLevel>
+      <module name="valkyrie" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

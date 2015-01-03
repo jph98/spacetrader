@@ -1,11 +1,18 @@
 package com.froyo.valkyrie;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
 import java.util.ArrayList;
 import java.util.List;
 
 public class InputHandler implements KeyListener {
+
+    private static Logger logger = LoggerFactory.getLogger(Main.class);
+
+    private final SolarSystemGUI gui;
 
     public List<Key> keys = new ArrayList<Key>();
 
@@ -18,6 +25,7 @@ public class InputHandler implements KeyListener {
 
         // Add the input handler to the game
         gui.addKeyListener(this);
+        this.gui = gui;
     }
 
     @Override
@@ -29,6 +37,9 @@ public class InputHandler implements KeyListener {
     public void keyPressed(KeyEvent e) {
 
         toggleKey(e.getKeyCode(), true);
+
+        gui.tick();
+        gui.render();
     }
 
     @Override

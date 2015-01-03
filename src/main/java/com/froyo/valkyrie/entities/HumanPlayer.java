@@ -1,7 +1,9 @@
 package com.froyo.valkyrie.entities;
 
 import com.froyo.valkyrie.GameContext;
+import com.froyo.valkyrie.GameState;
 import com.froyo.valkyrie.InputHandler;
+import com.froyo.valkyrie.TileResolver;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -28,7 +30,6 @@ public class HumanPlayer implements PlayerTile {
     public static final char R = 'r';
 
     private char direction = R;
-    private double rotation;
 
     public HumanPlayer(int x, int y) {
         this.x = x;
@@ -44,8 +45,6 @@ public class HumanPlayer implements PlayerTile {
     }
 
     public void tick() {
-
-        logger.info("Tick " + x + " " + y);
 
         if (handler.up.isPressed()) {
             if (y == 0) return;
@@ -64,8 +63,33 @@ public class HumanPlayer implements PlayerTile {
             direction = R;
             x += 1;
         }
+    }
 
-        logger.info("(done) Tick " + x + " " + y);
+    @Override
+    public void preMove() {
+
+        //Check new pos
+        int[][] board = context.getBoard();
+        int tile = board[x][y];
+
+        logger.info("Tile pre move is " + TileResolver.resolve(tile));
+    }
+
+    @Override
+    public void postMove() {
+
+        //Check new pos
+        int[][] board = context.getBoard();
+        int tile = board[x][y];
+
+        logger.info("Tile post move is " + TileResolver.resolve(tile));
+        if (tile == PlanetTile.TILE) {
+
+            // Enter planet mode
+            context.setState(GameState.VisitingPlanet);
+        } else {
+            context.setState(GameState.TravellingBoard);
+        }
     }
 
     public int getY() {
@@ -76,20 +100,11 @@ public class HumanPlayer implements PlayerTile {
         return x;
     }
 
-    public char getDirection() {
-        return direction;
-    }
-
-    public void setDirection(char direction) {
-        this.direction = direction;
-    }
-
     public double getRotation() {
 
         switch (direction) {
 
             case R: {
-
                 return 0;
             }
 

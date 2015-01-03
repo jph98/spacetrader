@@ -13,6 +13,7 @@ public class Product {
     private double quantity;
     private double lowprice;
     private double highprice;
+    private double price;
 
     public String getName() {
         return name;
@@ -74,5 +75,13 @@ public class Product {
         helper.add("highprice", highprice);
 
         return helper.toString();
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public double getPrice() {
+        return price;
     }
 }

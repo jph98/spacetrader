@@ -14,15 +14,15 @@ import java.util.ArrayList;
 import java.util.Map;
 import java.util.Set;
 
-public class GameMain {
+public class Main {
 
-    private static Logger logger = LoggerFactory.getLogger(GameMain.class);
+    private static Logger logger = LoggerFactory.getLogger(Main.class);
 
     private SolarSystemGUI gui;
     private GameContext context;
     private long gameStartTime;
 
-    public GameMain() {
+    public Main() {
 
     }
 
@@ -44,6 +44,14 @@ public class GameMain {
 
         // Create players in context
         createPlayers();
+
+        renderBoard();
+
+    }
+
+    private void renderBoard() {
+        gui.init();
+        gui.render();
     }
 
     private void createPlayers() {
@@ -59,14 +67,6 @@ public class GameMain {
 
     private void createPlanets(Map planetsConfig) {
 
-        Yaml yaml = new Yaml();
-        Map productsConfig =(Map) yaml.load(this.getClass().getResourceAsStream("products.yml"));
-
-        ArrayList<Object> products = (ArrayList<Object>) productsConfig.get("products");
-        for (Object product: products) {
-            logger.info("Found product: " + (Product) product);
-        }
-
         ArrayList<Object> planetNames = (ArrayList<Object>) planetsConfig.get("planets");
         context.createPlanetsFromList(planetsConfig, planetNames);
         int numConnections = (int) planetsConfig.get("num.connections");
@@ -81,13 +81,21 @@ public class GameMain {
 
             // Initialise the planet with missions, market and engineering bay
 
-            p.createMarket();
+            Yaml yaml = new Yaml();
+            Map productsConfig =(Map) yaml.load(this.getClass().getResourceAsStream("products.yml"));
+
+            ArrayList<Object> products = (ArrayList<Object>) productsConfig.get("products");
+            for (Object product: products) {
+                logger.info("Found product: " + (Product) product);
+            }
+
+            p.createMarket(products);
             p.createEngineeringBay();
             p.createMissions();
         }
     }
 
-    public void loop() {
+    public void loopContinuous() {
 
         this.gameStartTime = System.currentTimeMillis();
 
@@ -118,7 +126,6 @@ public class GameMain {
                 gui.tick();
                 delta -= 1;
                 shouldRender = true;
-                logger.info("tick");
             }
 
             // Otherwise we end up with huge frame rate
@@ -130,12 +137,11 @@ public class GameMain {
             if (shouldRender) {
                 frames++;
                 gui.render();
-                logger.info("render");
             }
 
             if (System.currentTimeMillis() - lastTimer >= 1000) {
                 lastTimer += 1000;
-                System.out.println("ticks: " + ticks + ", frames: " + frames);
+                logger.debug("ticks: " + ticks + ", frames: " + frames);
                 frames = 0;
                 ticks = 0;
             }
@@ -157,8 +163,8 @@ public class GameMain {
 
     public static void main( String[] args ) {
         
-        GameMain main = new GameMain();
+        Main main = new Main();
         main.setup();
-        main.loop();
+        //main.loopContinuous();
     }
 }

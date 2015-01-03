@@ -9,6 +9,7 @@ import org.slf4j.LoggerFactory;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
 import java.awt.image.BufferStrategy;
 import java.awt.image.BufferedImage;
 
@@ -17,21 +18,24 @@ import java.awt.image.BufferedImage;
  */
 public class SolarSystemGUI extends Canvas {
 
-    private static Logger logger = LoggerFactory.getLogger(GameMain.class);
+    private static Logger logger = LoggerFactory.getLogger(Main.class);
 
     private static final String NAME = "TraderGalaxy";
+
+    public static final int CELL_SIZE = 64;
     private final ImageHolder imageHolder;
 
     private JFrame frame;
-    private GameContext system;
+    private GameContext context;
 
-    public SolarSystemGUI(GameContext system) {
+    public SolarSystemGUI(GameContext context) {
 
         this.imageHolder = new ImageHolder();
-        this.system = system;
+        this.context = context;
 
-        int width = system.getWidth() * 64 + 20;
-        int height = system.getHeight() * 64 + 20;
+        // Add the white spacing (2) + border lip (2)
+        int width = context.getWidth() * (CELL_SIZE + 2) + 2;
+        int height = context.getHeight() * (CELL_SIZE + 2) + 2;
 
         setMinimumSize(new Dimension(width, height));
         setMaximumSize(new Dimension(width, height));
@@ -43,12 +47,29 @@ public class SolarSystemGUI extends Canvas {
         frame.setLayout(new BorderLayout());
 
         frame.add(this, BorderLayout.CENTER);
+
+        JPanel panel = new JPanel(new FlowLayout());
+
+        JLabel turns = new JLabel("Turn Number 3");
+        panel.add(turns);
+
+        panel.setBackground(Color.black);
+
+        frame.add(panel, BorderLayout.SOUTH);
         frame.pack();
 
         frame.setResizable(false);
         frame.setLocationRelativeTo(null);
         frame.setVisible(true);
 
+        // Set the canvas as focusable for input
+        setFocusable(true);
+
+        context.setState(GameState.TravellingBoard);
+    }
+
+    public void init() {
+        render();
     }
 
     public void render() {
@@ -64,17 +85,29 @@ public class SolarSystemGUI extends Canvas {
 
         Graphics2D g = (Graphics2D) bs.getDrawGraphics();
 
-        renderTiles(g);
+        if (context.getState().equals(GameState.TravellingBoard)) {
+            renderTiles(g);
+            renderPlayers(bs, g);
+        } else if (context.getState().equals(GameState.VisitingPlanet)) {
 
-        // Render Entities
-        renderPlayers(bs, g);
+            renderTiles(g);
+            renderPlayers(bs, g);
+
+            // Show the planet screen, placeholder
+            String content = "";
+            JOptionPane.showMessageDialog(null, new JTextArea(content), "Your title here bro", JOptionPane.PLAIN_MESSAGE);
+
+
+        }
     }
 
     public void tick() {
 
-        for (PlayerTile p: system.getPlayers()) {
+        for (PlayerTile p: context.getPlayers()) {
 
+            p.preMove();
             p.tick();
+            p.postMove();
         }
     }
 
@@ -82,11 +115,11 @@ public class SolarSystemGUI extends Canvas {
 
         BufferedImage image = null;
 
-        for (HumanPlayer p: system.getPlayers()) {
+        for (HumanPlayer p: context.getPlayers()) {
 
             image = imageHolder.getImage("player.png");
-            int xLocation = (p.getX() * 64) + (2 * p.getX());
-            int yLocation = (p.getY() * 64) + (2 * p.getY());
+            int xLocation = (p.getX() * CELL_SIZE) + (2 * p.getX());
+            int yLocation = (p.getY() * CELL_SIZE) + (2 * p.getY());
 
             image = ImageUtils.rotateImage(image, p.getRotation());
 
@@ -98,16 +131,16 @@ public class SolarSystemGUI extends Canvas {
 
     public void renderTiles(Graphics2D g) {
 
-        int[][] board = system.getBoard();
+        int[][] board = context.getBoard();
 
-        for (int x = 0; x < system.getWidth(); x++) {
+        for (int x = 0; x < context.getWidth(); x++) {
 
-            for (int y = 0; y < system.getHeight(); y++) {
+            for (int y = 0; y < context.getHeight(); y++) {
 
                 int tile = board[x][y];
 
-                int xLocation = (x * 64) + (2 * x);
-                int yLocation = (y * 64) + (2 * y);
+                int xLocation = (x * CELL_SIZE) + (2 * x + 2);
+                int yLocation = (y * CELL_SIZE) + (2 * y + 2);
 
                 logger.debug("Placing " + TileResolver.resolve(tile) + " at " + x + "," + y + " - [" + xLocation + "," + yLocation + "]");
 
@@ -127,17 +160,11 @@ public class SolarSystemGUI extends Canvas {
     private void drawTile(Graphics2D g, String imageName, int xLocation, int yLocation) {
 
         BufferedImage image = null;
-        // 64 x 64
-        //image = ImageIO.read(this.getClass().getResource(imageName));
         image = imageHolder.getImage(imageName);
         g.drawImage(image, xLocation, yLocation, image.getWidth(), image.getHeight(), null);
     }
 
     public InputHandler createInputHandler() {
         return new InputHandler(this);
-    }
-
-    public void init() {
-        render();
     }
 }

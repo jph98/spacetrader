@@ -6,4 +6,8 @@ package com.froyo.valkyrie.entities;
 public interface PlayerTile {
 
     void tick();
+
+    void preMove();
+
+    void postMove();
 }

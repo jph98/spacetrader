@@ -15,4 +15,11 @@ public class Market {
     public Market() {
         this.products = Sets.newHashSet();
     }
+
+    public void addProduct(Product p, int quantity, double price) {
+
+        p.setQuantity(quantity);
+        p.setPrice(price);
+        this.products.add(p);
+    }
 }

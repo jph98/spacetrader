@@ -1,8 +1,12 @@
 package com.froyo.valkyrie.entities;
 
+import com.froyo.valkyrie.util.RandomUtil;
 import com.google.common.base.MoreObjects;
 import com.google.common.collect.Sets;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 import java.util.Set;
 
 /**
@@ -100,14 +104,24 @@ public class PlanetTile {
         return x;
     }
 
-    public void createMarket() {
+    public void createMarket(ArrayList<Object> products) {
+
+        // Choose three products to stock
+        for (int n = 0; n < 3; n++) {
+
+            int idx = RandomUtil.numberInRange(0, products.size() - 1);
+            Product p = (Product) products.get(idx);
+            int quantity = RandomUtil.numberInRange(1, 100);
+            double price = RandomUtil.numberInRange(p.getLowprice(), p.getHighprice());
+            market.addProduct(p, quantity, price);
+        }
     }
 
     public void createEngineeringBay() {
-
+        // TODO
     }
 
     public void createMissions() {
-
+        // TODO
     }
 }

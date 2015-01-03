@@ -14,7 +14,7 @@ import java.util.Map;
  */
 public class ImageHolder {
 
-    private static Logger logger = LoggerFactory.getLogger(GameMain.class);
+    private static Logger logger = LoggerFactory.getLogger(Main.class);
 
     private Map<String, BufferedImage> imageMap = Maps.newHashMap();
 

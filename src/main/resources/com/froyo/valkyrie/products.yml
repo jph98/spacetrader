@@ -1,20 +1,95 @@
 # Define three groups of elements
 
 products:
-  - !!com.froyo.valkyrieities.Product
+
+# 1. Food Products (Food, Clothes etc...)
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Fruit and Veg
+    type: Food
+    unit: kg
+    lowprice: 1
+    highprice: 5
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Liquer
+    type: Food
+    unit: kg
+    lowprice: 3
+    highprice: 10
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Meat
+    type: Food
+    unit: kg
+    lowprice: 5
+    highprice: 8
+
+# 2. Engineering Products (Metal, Wood etc...)
+
+  - !!com.froyo.valkyrie.entities.Product
     name: Wooden Beams
-    type: Building Materials
+    type: Engineering
     unit: kg
     lowprice: 2
     highprice: 10
-  - !!com.froyo.valkyrieities.Product
+
+  - !!com.froyo.valkyrie.entities.Product
     name: Metal Ore
-    type: Building Materials
+    type: Engineering
     unit: kg
     lowprice: 4
     highprice: 14
 
-# 1. Colony Products (Food, Clothes etc...)
-# 2. Engineering Products (Metal, Wood etc...)
+  - !!com.froyo.valkyrie.entities.Product
+    name: Clothes
+    type: Engineering
+    unit: kg
+    lowprice: 4
+    highprice: 14
+
 # 3. Illegal Products
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Narcotics
+    type: Illegal Goods
+    unit: kg
+    lowprice: 300
+    highprice: 600
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Slaves
+    type: Illegal Goods
+    unit: kg
+    lowprice: 400
+    highprice: 800
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Exotic Animals
+    type: Illegal Goods
+    unit: kg
+    lowprice: 100
+    highprice: 400
+
 # 4. Precious Products
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Palladium
+    type: Precious Metals
+    unit: kg
+    lowprice: 120
+    highprice: 350
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Gold
+    type: Precious Metals
+    unit: kg
+    lowprice: 100
+    highprice: 400
+
+  - !!com.froyo.valkyrie.entities.Product
+    name: Silver
+    type: Precious Metals
+    unit: kg
+    lowprice: 50
+    highprice: 200

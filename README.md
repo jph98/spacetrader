@@ -8,6 +8,7 @@ A Java 2D space trading game...
 Basic mechanics
 ---------------
 
+* Add a status panel
 * Implement the concept of allowed turns per go
 * Implement the visiting of a planet
 * Connect the planets via some sort of link
