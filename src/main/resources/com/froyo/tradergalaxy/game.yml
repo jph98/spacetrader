@@ -2,8 +2,14 @@
 
 ---
 
-numconnections: 2
+# Number of connections created randomly for each planet found
+num.connections: 2
 
+# Number of cells in the board grid
+board.height: 20
+board.width: 20
+
+# Planets that will be selected from for the game
 planets:
   - "Ketun"
   - "Upreth"

@@ -1,0 +1,20 @@
+# Define three groups of elements
+
+products:
+  - !!com.froyo.tradergalaxy.entities.Product
+    name: Wooden Beams
+    type: Building Materials
+    unit: kg
+    lowprice: 2
+    highprice: 10
+  - !!com.froyo.tradergalaxy.entities.Product
+    name: Metal Ore
+    type: Building Materials
+    unit: kg
+    lowprice: 4
+    highprice: 14
+
+# 1. Colony Products (Food, Clothes etc...)
+# 2. Engineering Products (Metal, Wood etc...)
+# 3. Illegal Products
+# 4. Precious Products

@@ -1,18 +1,34 @@
-package com.froyo.tradergalaxy;
+package com.froyo.tradergalaxy.entities;
 
 import com.google.common.base.MoreObjects;
+import com.google.common.collect.Sets;
 
-public class Planet {
+import java.util.Set;
+
+/**
+ * A planet consists of:
+ * - Set of missions
+ * - Market for trading products at specific prices
+ */
+public class PlanetTile {
+
+    public static final int TILE = 0;
+    public static final String DESCRIPTION = "PlanetTile";
 
     private String name;
     private int x;
     private int y;
 
-    public Planet() {
+    private Set<Mission> missions = Sets.newHashSet();
+    private Market market;
+    private EngineeringBay bay;
 
+    public PlanetTile() {
+
+        this.market = new Market();
     }
 
-    public Planet(String name) {
+    public PlanetTile(String name) {
         this.name = name;
     }
     
@@ -20,17 +36,17 @@ public class Planet {
         return name;
     }
 
-    public Planet setName(String name) {
+    public PlanetTile setName(String name) {
         this.name = name;
         return this;
     }
 
-    public Planet setY(int y) {
+    public PlanetTile setY(int y) {
         this.y = y;
         return this;
     }
 
-    public Planet setX(int x) {
+    public PlanetTile setX(int x) {
         this.x = x;
         return this;
     }
@@ -46,7 +62,7 @@ public class Planet {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        Planet other = (Planet) obj;
+        PlanetTile other = (PlanetTile) obj;
         if (name == null) {
             if (other.name != null) {
                 return false;
@@ -82,5 +98,16 @@ public class Planet {
 
     public int getX() {
         return x;
+    }
+
+    public void createMarket() {
+    }
+
+    public void createEngineeringBay() {
+
+    }
+
+    public void createMissions() {
+
     }
 }

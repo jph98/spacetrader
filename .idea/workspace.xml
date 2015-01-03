@@ -4,13 +4,29 @@
     <list default="true" id="30011b0b-b7b0-4dbe-9801-db92c739f77e" name="Default" comment="" />
     <ignored path="spacetrader.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/SolarSystem.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420208981299" ignored="false" />
-    <file path="/Main.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420206253797" ignored="false" />
+    <file path="/SolarSystem.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420281924216" ignored="false" />
+    <file path="/Main.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420271437604" ignored="false" />
     <file path="/pom.xml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420128572102" ignored="false" />
     <file path="/locations.yml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420128692229" ignored="false" />
-    <file path="/planets.yml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420203068663" ignored="false" />
-    <file path="/Planet.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420204240945" ignored="false" />
-    <file path="/SolarSystemGUI.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420208683058" ignored="false" />
+    <file path="/planets.yml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420271616505" ignored="false" />
+    <file path="/Planet.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288856879" ignored="false" />
+    <file path="/SolarSystemGUI.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420287546101" ignored="false" />
+    <file path="/GameMain.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420291194889" ignored="false" />
+    <file path="/InputHandler.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420283366648" ignored="false" />
+    <file path="/TileResolver.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420275578779" ignored="false" />
+    <file path="/Player.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288867937" ignored="false" />
+    <file path="/ComputerPlayer.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288785376" ignored="false" />
+    <file path="/HumanPlayer.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288811582" ignored="false" />
+    <file path="/ImageHolder.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420285192845" ignored="false" />
+    <file path="/a.dummy" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420286467735" ignored="false" />
+    <file path="/ImageUtils.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420287553268" ignored="false" />
+    <file path="/fragment.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288738166" ignored="false" />
+    <file path="/Market.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288339896" ignored="false" />
+    <file path="/Product.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420291254757" ignored="false" />
+    <file path="/EngineeringBay.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288766427" ignored="false" />
+    <file path="/Space.java" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420288834473" ignored="false" />
+    <file path="/products.yml" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420290119036" ignored="false" />
+    <file path="/README.md" changelist="30011b0b-b7b0-4dbe-9801-db92c739f77e" time="1420292136278" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,19 +87,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="pom.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="GameMain.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="38" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="19" selection-start="784" selection-end="784" vertical-scroll-proportion="0.34085512">
+            <state line="67" column="50" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -91,10 +98,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolarSystemGUI.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystemGUI.java">
+      <file leaf-file-name="products.yml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/products.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="39" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+            <state line="19" column="33" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Product.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Product.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="53" column="38" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -102,22 +118,73 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="planets.yml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/planets.yml">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="29" column="30" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.16483517">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlanetTile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlanetTile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="92" column="10" selection-start="1755" selection-end="2006" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1420203150000" expanded="true" signature="51:391" placeholder="planets:" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SolarSystem.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystem.java">
+      <file leaf-file-name="SpaceTile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/SpaceTile.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="18" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+            <state line="5" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PlayerTile.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlayerTile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HumanPlayer.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/HumanPlayer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameContext.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="147" column="0" selection-start="3898" selection-end="3898" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EngineeringBay.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/EngineeringBay.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="5" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -132,18 +199,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/oogly/spacetrader/Planet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oogly/spacetrader/SolarSystem.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/oogly/spacetrader/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/locations.yml" />
-        <option value="$PROJECT_DIR$/src/main/resources/planets.yml" />
         <option value="$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/planets.yml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystemGUI.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/Planet.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystem.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Mission.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Market.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/EngineeringBay.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/ComputerPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/HumanPlayer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Space.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/SpaceTile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Planet.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlayerTile.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlanetTile.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/products.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameMain.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Product.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -155,9 +226,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="58" />
+    <option name="x" value="53" />
     <option name="y" value="22" />
-    <option name="width" value="1252" />
+    <option name="width" value="1253" />
     <option name="height" value="1418" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
@@ -215,6 +286,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -292,6 +371,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tradergalaxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tradergalaxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tradergalaxy" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="entities" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
@@ -322,16 +431,19 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy" />
     </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.froyo.tradergalaxy.entities" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration default="false" name="Main" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.GameMain">
+    <configuration default="false" name="GameMain" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="com.froyo.tradergalaxy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.froyo.tradergalaxy.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.froyo.tradergalaxy.GameMain" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -444,11 +556,11 @@
       <method />
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="0" class="java.lang.String" itemvalue="Application.GameMain" />
     </list>
     <recent_temporary>
       <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="0" class="java.lang.String" itemvalue="Application.GameMain" />
         <item index="1" class="java.lang.String" itemvalue="Application.Main" />
       </list>
     </recent_temporary>
@@ -472,19 +584,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="58" y="22" width="1252" height="1418" extended-state="0" />
+    <frame x="53" y="22" width="1253" height="1418" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32973805" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39984593" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291874" sideWeight="0.6702619" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33050847" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -492,11 +605,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2495854" sideWeight="0.6702619" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24937862" sideWeight="0.6702619" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32973805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -566,110 +678,133 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/Planet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/ImageUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="31" selection-start="31" selection-end="31" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystem.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="17" selection-start="291" selection-end="291" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradergalaxy.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3.jar!/org/jgrapht/graph/DefaultEdge.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="13" selection-start="160" selection-end="160" vertical-scroll-proportion="0.09179927" />
-      </provider>
-    </entry>
-    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.7.0_71.jdk/Contents/Home/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="33" selection-start="1514" selection-end="1514" vertical-scroll-proportion="0.33279872">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tradergalaxy.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="1527" selection-end="1527" vertical-scroll-proportion="0.40973872">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="16" selection-start="326" selection-end="326" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/planets.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="30" selection-start="391" selection-end="391" vertical-scroll-proportion="0.0">
+        <state line="21" column="19" selection-start="651" selection-end="651" vertical-scroll-proportion="0.3846154">
           <folding>
-            <marker date="1420203150000" expanded="true" signature="51:391" placeholder="planets:" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/player.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Mission.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="13" selection-start="74" selection-end="74" vertical-scroll-proportion="0.09157509">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Market.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="38" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0">
+        <state line="16" column="31" selection-start="277" selection-end="277" vertical-scroll-proportion="0.2930403">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/ComputerPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="42" selection-start="424" selection-end="424" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystemGUI.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="39" selection-start="538" selection-end="538" vertical-scroll-proportion="0.0">
+        <state line="85" column="0" selection-start="2133" selection-end="2133" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/Planet.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/game.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="82" column="14" selection-start="1610" selection-end="1613" vertical-scroll-proportion="0.8574822">
+        <state line="30" column="31" selection-start="501" selection-end="501" vertical-scroll-proportion="0.5494506">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/SolarSystem.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/froyo/tradergalaxy/products.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="18" selection-start="1045" selection-end="1045" vertical-scroll-proportion="0.0">
+        <state line="19" column="33" selection-start="468" selection-end="468" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/Main.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameContext.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="19" selection-start="784" selection-end="784" vertical-scroll-proportion="0.34085512">
+        <state line="147" column="0" selection-start="3898" selection-end="3898" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/EngineeringBay.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="5" selection-start="276" selection-end="276" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/GameMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="67" column="50" selection-start="1839" selection-end="1839" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/HumanPlayer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="473" selection-end="473" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/SpaceTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="18" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlayerTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="81" selection-end="81" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/PlanetTile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="10" selection-start="1755" selection-end="2006" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/froyo/tradergalaxy/entities/Product.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="38" selection-start="932" selection-end="932" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="194" selection-end="194" vertical-scroll-proportion="0.16483517">
+          <folding />
         </state>
       </provider>
     </entry>
