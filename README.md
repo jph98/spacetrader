@@ -1,6 +1,10 @@
 Valkyrie
 ========
 
+A Java 2D space trading game...
+
+![Valkyrie Logo](logo.png)
+
 Basic mechanics
 ---------------
 
